@@ -1,0 +1,126 @@
+.outline{
+    padding:30px;
+    padding-bottom: 0px;
+    font-size: 10;
+    height:1000px ;
+    width: 800px ;
+    border: 2px solid rgb(240, 209, 209);
+    background-color: rgb(255, 255, 255);
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-bottom:0px;
+}
+.txt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+    font-family: serif;
+    font-size: 16.3;
+    text-align: center;
+
+}
+.heading{
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-size:730%;
+}
+
+.tab{
+    background-color: rgb(143, 18, 18);
+    width: 70px;
+    font-size: 16;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+
+}
+
+.p1{
+    
+    margin-top: 10px;
+    display : flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: justify;
+
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+.p1 > *{
+    flex: 1 1 0;
+
+}
+
+fieldset{
+    border: 0px;
+    padding: 0px;
+    margin:0px ;
+}
+
+legend{
+    background-color: rgb(143, 18, 18);
+    width: 60px;
+    font-size: 16;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.p2{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    display : flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.p2 > *{
+    flex: 1 1 0;
+
+}
+
+.bm{
+   
+    margin-top: 0px;
+    display : flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.b{
+    margin-top: 10px;
+    border-top: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(182, 14, 14);
+    font-size: medium;
+}
+
+.bottom{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-bottom:0px;
+
+}
